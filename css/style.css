@@ -1,0 +1,205 @@
+body{
+    font-family: 'Open Sans', sans-serif;width: 100%; margin:0; padding: 0; display: block;
+}
+/* css for menubar */
+#menu{
+    background-color: #8E6A9A; color: #fff;height:50px; position: fixed; width: 100%; top: 0;left: 0;
+}
+.left{
+    float: left; width: 75%;
+}
+.right{
+    width: 20%; overflow: hidden; float: right; margin-left: 0px; margin-right: 5%;
+}
+.right a{
+    padding: 14px;line-height: 50px; color: aliceblue;
+}
+.logo{
+    width: 20%;float: left;padding-top: 10px; margin-left: 20%;
+}
+.mainmenu{
+    width: 55%;float: right; padding: 0; margin:0;
+}
+.mainmenu ul{
+    margin: 0;padding: 0;
+}
+.mainmenu ul li{
+    float: left; overflow: hidden; list-style: none;
+}
+.mainmenu ul li a{
+    text-decoration: none; padding: 10px 10px; line-height: 50px; text-transform: uppercase; color: #fff;
+}
+.mainmenu ul li a:hover{
+    background-color: #fff; color: #8E6A9A
+}
+.mainmenu ul li a:active{
+    border-bottom: 2px solid black;
+}
+#slider img{
+    width: 100%; margin: 0 auto;
+}
+#la{
+    height: 150px;;margine-top
+    30px;
+}
+#font{
+    overflow:hidden;
+}
+#la{
+    text-align: center; margin-top: 40px; margin-bottom: 50px;font-family: 'Open Sans', sans-serif;
+}
+#la p{
+    margin: 0px 200px;
+}
+#font{
+    text-align: center;margin-top: 50px; margin-bottom: 50px;
+}
+#font .mkds{
+    color: ; border: 2px solid black; border-radius: 50px; padding: 10px;
+}
+#font p{
+    float: left; width: 20%;margin-left: 15px;
+}
+#font strong{
+    font-size: 30px;color: green;
+}
+#font .para{
+    margin-left: 450px;;margin-bottom: 50px;height: 200px;
+}
+#notre{
+    margin-top: 50px;height: 550px;
+}
+#notre .img{
+    width: 300px; float: left;margin-left: 15px;
+}
+#notre .img img{width: 300px;height: 306px;
+}
+#notre .img p{
+    width: 300px;margin: 0;
+}
+#notre .img strong{
+    font-size: 16px;margin-right: 10px;text-align: left;
+}
+#notre .images{
+    margin-left: 20%;
+}
+#notre .img hr{
+    margin: 0;margin-top:10px;
+}
+#notre .img .socail{
+    width: 150px;margin: 0;padding: 0; padding-bottom: 5px;padding-top: 5px;font-size: 22px;background-color: red;color: #fff;float: left;
+}
+#notre .img .fa-facebook{
+    background-color: #3C599B;
+}
+#notre .img .fa-google-plus{
+    background-color: #CE4438;
+}
+#notre .img .fa-dribbble{
+    background-color: #EA4C87;
+}
+#notre .img .fa-twitter{
+    background-color: #00ABF1;
+}
+#notre .img .fa-youtube{
+    background-color: #C40C06;
+}
+#features{
+    background-color: #765CA5; color: #fff;
+}
+#features .bottom{
+    margin-right: 250px; height: 300px;margin-top: 50px;
+}
+#features .bottom .text{
+    width: 560px;text-align: left;float: right;font-size: 20px;
+}
+#features .bottom .text p{
+    width: 100%; margin: 0;margin-bottom: 50px;
+}
+#features .bottom .image{
+   margin-left: 250px
+}
+#features .top .image img{
+    width: 430px;
+}
+#features .top{
+    margin-left: 250px; height: 300px;margin-top: 50px;
+}
+#features .top .text{
+    width: 560px;text-align: left;float: left;font-size: 20px;
+}
+#features .top .text p{
+    width: 100%; margin: 0;margin-bottom: 50px;
+}
+#features .top .image{
+   margin-right: 250px
+}
+#features .bottom .image img{
+    width: 430px;
+}
+#features span{
+    border: 5px solid #fff;padding: 5px 25px;
+}
+#features h1{
+    text-transform: uppercase;margin: 0px;padding: 30px 0px;padding-top: 45px;
+}
+#prtfolio .menubar{
+     padding: 0; margin:0;height: 50px;margin-left: 50px;margin-left: 700px;
+}
+prtfolio .menubar ul{
+    margin: 0;padding: 0;
+}
+#prtfolio .menubar ul li{
+    float: left; overflow: hidden; list-style: none;
+}
+#prtfolio .menubar ul li a{
+    text-decoration: none; padding: 10px 10px; line-height: 50px; text-transform: uppercase; color: #65597C;font-weight: bold;
+}
+#prtfolio .menubar ul li a:hover{
+    background-color: #65597C; color: #fff;
+}
+#prtfolio .menubar ul li a:active{
+    border-bottom: 2px solid black;
+}
+#prtfolio .images img{
+    width: 200px;height: 200px;margin: 0;padding: 0;
+}
+#prtfolio .top img{
+    float: left; 
+}
+#prtfolio .top{
+    display: block;height: 200px;margin-top: 50px;
+}
+#prtfolio .bottom img{
+    float: left; 
+}
+#prtfolio .bottom{
+    display: block;height: 200px;
+}
+#prtfolio .images{
+   margin-left: 520px;
+}
+#prtfolio h1{
+    text-align: center; text-transform: uppercase; color: #65597C; font-weight: bold;
+}
+#prtfolio .box{
+    height: 30px; width: 30px; background-color: aqua;float: left;
+}
+#prtfolio .red{
+    background-color: #D78C64;
+}
+#prtfolio .white{
+    background-color: #F8E2B2;
+}
+#prtfolio .green{
+    background-color: #8BCBA9;
+}
+#prtfolio .blue{
+    background-color: #795AAB;margin-left: 2px;
+}
+#prtfolio .black{
+    background-color: #4B3E5A;margin: 5px;
+}
+#prtfolio .color{
+    margin-left: 150px;
+}
