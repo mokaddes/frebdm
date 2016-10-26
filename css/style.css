@@ -224,3 +224,57 @@ prtfolio .menubar ul{
 #prtfolio .color{
     margin-left: 150px;width: 300px; float: left;overflow: hidden;clear:both;
 }
+#contact .tags{
+    float: left; width: 350px;
+}
+#contact .tags li{
+    width: 100px;padding: 10px 0px;
+}
+#contact .tags li a{
+    text-decoration: none;padding: 6px;background-color: #3E9767;color: #fff;
+}
+#contact .tags li a:hover{
+    background-color: #fff; color: #3E9767;
+}
+#contact .ul{
+    width: 1150px;margin: 0 auto;
+}
+#contact li{
+   float: left; width: 250px;margin: 0 auto; list-style: none;text-align: center;
+}
+#contact{
+    background-color: #90C5AB;height: 300px;margin-top: 30px;color: #fff;
+}
+#contact h3{
+    margin-top: 50px;margin-bottom: 50px;
+}
+#footer{
+    background-color: #54875E;height: 55px; color: #fff;
+}
+#footer ul li{
+    float: left; list-style: none;
+}
+#footer .right{
+    width: 500px;margin: 0 auto;padding-right: 250px;
+}
+#footer .right ul{
+    width: 500px;margin: 0;padding: 0;
+}
+#footer .left{
+    width: 500px;margin: 0 auto; padding-left: 250px
+}
+#footer .right ul li a{
+    text-decoration: none; font-size: 18px;line-height: 55px;color: #fff;
+}
+#footer .left a{
+    text-decoration: none; font-size: 18px;margin-left: 10px;color: #fff;
+}
+#footer a:hover{
+    background-color: #fff; color: #54875E;
+}
+#footer .right ul li a:hover{
+    background-color: #fff; color: #54875E;
+}
+h1{
+    padding-top: 50px;
+}
