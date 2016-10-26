@@ -57,14 +57,17 @@ body{
 #font .mkds{
     color: ; border: 2px solid black; border-radius: 50px; padding: 10px;
 }
+#font .mkds:hover{
+    background-color: black;color:#fff;
+}
 #font p{
-    float: left; width: 20%;margin-left: 15px;
+    float: left; width: 300px;margin-left: 15px;
 }
 #font strong{
     font-size: 30px;color: green;
 }
 #font .para{
-    margin-left: 450px;;margin-bottom: 50px;height: 200px;
+    ;margin-bottom: 50px;width: 960px;margin: 0 auto;height: 140px;margin-top: 30px;
 }
 #notre{
     margin-top: 50px;height: 550px;
@@ -81,7 +84,7 @@ body{
     font-size: 16px;margin-right: 10px;text-align: left;
 }
 #notre .images{
-    margin-left: 20%;
+    width: 960px;margin: 0 auto;
 }
 #notre .img hr{
     margin: 0;margin-top:10px;
@@ -92,17 +95,32 @@ body{
 #notre .img .fa-facebook{
     background-color: #3C599B;
 }
+#notre .img .fa-facebook:hover{
+    background-color: #ccc; color: #3C599B;
+}
 #notre .img .fa-google-plus{
     background-color: #CE4438;
+}
+#notre .img .fa-google-plus:hover{
+    background-color: #ccc; color: #CE4438;
 }
 #notre .img .fa-dribbble{
     background-color: #EA4C87;
 }
+#notre .img .fa-dribbble:hover{
+    background-color: #ccc; color: #EA4C87;
+}
 #notre .img .fa-twitter{
     background-color: #00ABF1;
 }
+#notre .img .fa-twitter:hover{
+    background-color: #ccc; color: #00ABF1;
+}
 #notre .img .fa-youtube{
     background-color: #C40C06;
+}
+#notre .img .fa-youtube:hover{
+    background-color: #CCC;color: #C40C06;
 }
 #features{
     background-color: #765CA5; color: #fff;
@@ -137,17 +155,20 @@ body{
 #features .bottom .image img{
     width: 430px;
 }
-#features span{
-    border: 5px solid #fff;padding: 5px 25px;
+#features button{
+    border: 5px solid #fff;padding: 10px 35px;background-color:#765CA5; color: #fff; font-size: 18px;
+}
+#features button:hover{
+    background-color: #fff;color:#765CA5;
 }
 #features h1{
     text-transform: uppercase;margin: 0px;padding: 30px 0px;padding-top: 45px;
 }
 #prtfolio .menubar{
-     padding: 0; margin:0;height: 50px;margin-left: 50px;margin-left: 700px;
+     padding: 0; margin:0;height: 50px;width: 500px;margin: 0 auto;margin-bottom: 40px;
 }
 prtfolio .menubar ul{
-    margin: 0;padding: 0;
+    margin: 0;padding: 0;width: 700px;
 }
 #prtfolio .menubar ul li{
     float: left; overflow: hidden; list-style: none;
@@ -168,16 +189,16 @@ prtfolio .menubar ul{
     float: left; 
 }
 #prtfolio .top{
-    display: block;height: 200px;margin-top: 50px;
+   height: 200px;margin-top: 50px;
 }
 #prtfolio .bottom img{
     float: left; 
 }
 #prtfolio .bottom{
-    display: block;height: 200px;
+    height: 200px;
 }
 #prtfolio .images{
-   margin-left: 520px;
+  width: 800px;margin: 0 auto;
 }
 #prtfolio h1{
     text-align: center; text-transform: uppercase; color: #65597C; font-weight: bold;
@@ -201,5 +222,5 @@ prtfolio .menubar ul{
     background-color: #4B3E5A;margin: 5px;
 }
 #prtfolio .color{
-    margin-left: 150px;
+    margin-left: 150px;width: 300px; float: left;overflow: hidden;clear:both;
 }
