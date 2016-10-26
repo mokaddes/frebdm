@@ -123,10 +123,10 @@ body{
     background-color: #CCC;color: #C40C06;
 }
 #features{
-    background-color: #765CA5; color: #fff;
+    background-color: #765CA5; color: #fff;margin-top: 50px; margin-bottom: 50px;
 }
 #features .bottom{
-    margin-right: 250px; height: 300px;margin-top: 50px;
+    height: 300px;margin-top: 50px;width: 1250px; margin: 0 auto;
 }
 #features .bottom .text{
     width: 560px;text-align: left;float: right;font-size: 20px;
@@ -134,14 +134,11 @@ body{
 #features .bottom .text p{
     width: 100%; margin: 0;margin-bottom: 50px;
 }
-#features .bottom .image{
-   margin-left: 250px
-}
 #features .top .image img{
     width: 430px;
 }
 #features .top{
-    margin-left: 250px; height: 300px;margin-top: 50px;
+     height: 300px;margin-top: 50px;width: 1100px;margin: 0 auto;
 }
 #features .top .text{
     width: 560px;text-align: left;float: left;font-size: 20px;
@@ -149,11 +146,8 @@ body{
 #features .top .text p{
     width: 100%; margin: 0;margin-bottom: 50px;
 }
-#features .top .image{
-   margin-right: 250px
-}
 #features .bottom .image img{
-    width: 430px;
+    width: 430px;height: 300px;
 }
 #features button{
     border: 5px solid #fff;padding: 10px 35px;background-color:#765CA5; color: #fff; font-size: 18px;
@@ -255,13 +249,13 @@ prtfolio .menubar ul{
     float: left; list-style: none;
 }
 #footer .right{
-    width: 500px;margin: 0 auto;padding-right: 250px;
+    width: 500px;margin: 0 auto;
 }
 #footer .right ul{
     width: 500px;margin: 0;padding: 0;
 }
 #footer .left{
-    width: 500px;margin: 0 auto; padding-left: 250px
+    width: 500px;margin: 0 auto;
 }
 #footer .right ul li a{
     text-decoration: none; font-size: 18px;line-height: 55px;color: #fff;
