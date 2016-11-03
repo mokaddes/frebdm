@@ -89,6 +89,9 @@ body{
 #notre .img hr{
     margin: 0;margin-top:10px;
 }
+#notre .img img:hover{
+    border: 1px solid blue;
+}
 #notre .img .socail{
     width: 150px;margin: 0;padding: 0; padding-bottom: 5px;padding-top: 5px;font-size: 22px;background-color: red;color: #fff;float: left;
 }
@@ -156,7 +159,7 @@ body{
     background-color: #fff;color:#765CA5;
 }
 #features h1{
-    text-transform: uppercase;margin: 0px;padding: 30px 0px;padding-top: 45px;
+    text-transform: uppercase;margin: 0px;padding: 30px 0px;padding-top: 65px;
 }
 #prtfolio .menubar{
      padding: 0; margin:0;height: 50px;width: 500px;margin: 0 auto;margin-bottom: 40px;
@@ -249,16 +252,16 @@ prtfolio .menubar ul{
     float: left; list-style: none;
 }
 #footer .right{
-    width: 500px;margin: 0 auto;
+    width: 500px;
 }
 #footer .right ul{
-    width: 500px;margin: 0;padding: 0;
+    width: 500px;margin: 0;
 }
 #footer .left{
-    width: 500px;margin: 0 auto;
+    width: 500px;
 }
 #footer .right ul li a{
-    text-decoration: none; font-size: 18px;line-height: 55px;color: #fff;
+    text-decoration: none; font-size: 18px;line-height: 55px;color: #fff;padding: 15px 23px;
 }
 #footer .left a{
     text-decoration: none; font-size: 18px;margin-left: 10px;color: #fff;
@@ -271,4 +274,10 @@ prtfolio .menubar ul{
 }
 h1{
     padding-top: 50px;
+}
+#footer .foot{
+    width: 1100px; margin: 0 auto;
+}
+.contact input{
+    margin-bottom:2px;
 }
