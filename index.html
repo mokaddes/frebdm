@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="css/animate.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/main.js"></script>
 </head>
 <body>
     <div id="main">
@@ -118,6 +120,17 @@
         </div>
         <!-- html for portflio; here stay a menubar , 9 images-->
         <div id="prtfolio">
+          <!-- popup windows -->
+           <div id="popup">
+               <div class="popup_background">
+                   
+               </div>
+               <div class="popup_box">
+                  <span class="close">&times;</span>
+                  <img id="img" class="pop_img">
+               </div>
+           </div>
+           <!-- ends of popup -->
             <h1>portfolio</h1>
             <div class="color">
                 <div class="box red"></div>
@@ -136,16 +149,20 @@
                 </ul>
             </div>
             <div class="top images">
-                <img src="images/12.png" alt="" class="animated 1 fadeInUp">
-                <img src="images/13.png" alt="" class="animated 1 fadeInUp">
-                <img src="images/14.png" alt="" class="animated 1 fadeInUp">
-                <img src="images/15.png" alt="" class="animated 1 fadeInUp">
+                <ul>
+                    <li><a href="images/12.png"><img src="images/12.png" alt="" class="animated 1 fadeInUp"></a></li>
+                    <li><a href="images/13.png"><img src="images/13.png" alt="" class="animated 1 fadeInUp"></a></li>
+                    <li><a href="images/14.png"><img src="images/14.png" alt="" class="animated 1 fadeInUp"></a></li>
+                    <li><a href="images/15.png"><img src="images/15.png" alt="" class="animated 1 fadeInUp"></a></li>
+                </ul>
             </div>
             <div class="bottom images">
-                <img src="images/16.png" alt="" class="animated 1 fadeInUp">
-                <img src="images/17.png" alt="" class="animated 1 fadeInUp">
-                <img src="images/18.png" alt="" class="animated 1 fadeInUp">
-                <img src="images/19.png" alt="" class="animated 1 fadeInUp">
+                <ul>
+                    <li><a href="images/12.png"><img src="images/12.png" alt="" class="animated 1 fadeInUp"></a></li>
+                    <li><a href="images/13.png"><img src="images/13.png" alt="" class="animated 1 fadeInUp"></a></li>
+                    <li><a href="images/14.png"><img src="images/14.png" alt="" class="animated 1 fadeInUp"></a></li>
+                    <li><a href="images/15.png"><img src="images/15.png" alt="" class="animated 1 fadeInUp"></a></li>
+                </ul>
             </div>
         </div>
         <!-- contact ; about me , having tags-->
